@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background-color: #222222;
+}
+
+.top-againand-bet{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+}
+button.again{
+    font-size: 20px;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.betweentab p{
+    font-size: 20px;
+    color:white;padding: 1rem;
+}
+
+section.geuessText h1{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 120px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.btn:hover{
+    background-color: #ccc;
+
+}
+
+.geuessText{
+  height: 50vh;
+  position: relative;
+}
+
+.geuessText .Line{
+  margin-top: 150px;
+}
+
+.Number{
+  color: black;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 38%;
+  left:50%;
+  transform:translate(-50%);
+  font-size: 50px;
+}
+
+.checkAndScore{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  align-items: center;
+
+}
+.checkAndScore .left{
+  width: 50%;
+
+}
+.checkAndScore .left input[type="number"]{
+
+  background-color: #222;
+  border:1px solid #ffffff;
+  color: white;
+  font-size: 50px;
+  width: 30%;
+  height: 10%;
+  padding: 50px;
+  outline: none;
+
+}
+.checkAndScore .left input[type="number"]:scrollbar{
+  font-size: 40px;
+}
+
+
+.right h3{
+  color: white;
+  font-weight: 400;
+}
+
+.checkbutton{
+  font-size: 20px;
+  padding: 1rem;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+}
