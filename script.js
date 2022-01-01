@@ -7,7 +7,7 @@ const bgColor = function(color){
 
 let HighScore = 0;
 let secretNumber = Math.trunc(Math.random()*20)+1;
-document.querySelector('.Number').textContent = secretNumber;
+//document.querySelector('.Number').textContent = secretNumber;
 let Score = 20;
 document.querySelector('.checkbutton').addEventListener('click',function(){
     let guessed = Number(document.querySelector('.guess').value);
